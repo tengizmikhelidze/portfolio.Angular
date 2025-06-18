@@ -1,0 +1,80 @@
+/* =========================
+   PRIMARY – GREEN SHADES
+   Tailwind-inspired green scale
+   ========================= */
+$color-primary:        #22C55E;  // 500
+$color-primary-50:     #F0FDF4;
+$color-primary-100:    #DCFCE7;
+$color-primary-200:    #BBF7D0;
+$color-primary-300:    #86EFAC;
+$color-primary-400:    #4ADE80;
+$color-primary-500:    #22C55E;
+$color-primary-600:    #16A34A;
+$color-primary-700:    #15803D;
+$color-primary-800:    #166534;
+$color-primary-900:    #14532D;
+
+/* =========================
+   SECONDARY – NEUTRALS (unchanged, same as orange theme)
+   ========================= */
+$color-secondary:        #000000;
+$color-secondary-50:     #E6E6E6;
+$color-secondary-100:    #B0B0B0;
+$color-secondary-200:    #8A8A8A;
+$color-secondary-300:    #545454;
+$color-secondary-400:    #333333;
+$color-secondary-500:    #000000;
+$color-secondary-600:    #000000;
+$color-secondary-700:    #000000;
+$color-secondary-800:    #000000;
+$color-secondary-900:    #000000;
+
+/* =========================
+   BUTTON / UTILITY COLORS
+   (calculated from primary/secondary above)
+   ========================= */
+$color-button-text-initial:   #FFFFFF;
+$color-button-text-hovered:   #00000066;
+$color-button-disabled:       #CCCCCC;
+$color-transparent:           transparent;
+
+/* Backgrounds */
+$color-background-button-primary-initial:   #{$color-primary};
+$color-background-button-primary-hovered:   #{$color-primary-600};
+$color-background-button-primary-disabled:  #{$color-button-disabled};
+
+$color-background-button-secondary-initial:   #{$color-secondary};
+$color-background-button-secondary-hovered:   #{$color-secondary};
+$color-background-button-secondary-disabled:  #{$color-button-disabled};
+
+$color-background-button-outline-initial:    #{$color-transparent};
+$color-background-button-outline-hovered:    #{$color-primary};
+$color-background-button-outline-disabled:   #{$color-button-disabled};
+
+$color-background-button-ghost-initial:      #{$color-transparent};
+$color-background-button-ghost-hovered:      #{$color-transparent};
+$color-background-button-ghost-disabled:     #{$color-button-disabled};
+
+/* Text */
+$color-text-button-primary-initial:    #{$color-button-text-initial};
+$color-text-button-secondary-initial:  #{$color-button-text-hovered};
+$color-text-button-outline-initial:    #{$color-primary};
+$color-text-button-ghost-initial:      #{$color-primary};
+$color-text-button-ghost-hovered:      #{$color-button-text-hovered};
+
+/* Borders */
+$color-border-button-primary-initial:    #{$color-primary};
+$color-border-button-primary-hovered:    #{$color-primary-600};
+$color-border-button-primary-disabled:   #{$color-button-disabled};
+
+$color-border-button-secondary-initial:  #{$color-secondary};
+$color-border-button-secondary-hovered:  #{$color-secondary};
+$color-border-button-secondary-disabled: #{$color-button-disabled};
+
+$color-border-button-outline-initial:    #{$color-primary};
+$color-border-button-outline-hovered:    #{$color-primary};
+$color-border-button-outline-disabled:   #{$color-button-disabled};
+
+$color-border-button-ghost-initial:      #{$color-transparent};
+$color-border-button-ghost-hovered:      #{$color-transparent};
+$color-border-button-ghost-disabled:     #{$color-button-disabled};

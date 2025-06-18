@@ -1,6 +1,6 @@
 import {Component, input} from '@angular/core';
-import {ButtonSize, ButtonType, ButtonVariant} from './types/button.type';
 import {NgClass} from '@angular/common';
+import {ButtonSize, ButtonType, ButtonVariant} from '../shared';
 
 @Component({
   selector: 'app-button',

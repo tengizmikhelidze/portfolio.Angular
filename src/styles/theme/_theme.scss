@@ -1,5 +1,6 @@
 @use "sass:map";
 @use 'orange/orange-palette' as o;
+@use 'green/green-palette' as g;
 
 $theme-map: (
   "orange": (
@@ -63,6 +64,69 @@ $theme-map: (
     "color-border-button-ghost-initial": o.$color-border-button-ghost-initial,
     "color-border-button-ghost-hovered": o.$color-border-button-ghost-hovered,
     "color-border-button-ghost-disabled": o.$color-border-button-ghost-disabled,
+  ),
+
+  "green": (
+    // Primary
+    "color-primary": g.$color-primary,
+    "color-primary-50": g.$color-primary-50,
+    "color-primary-100": g.$color-primary-100,
+    "color-primary-200": g.$color-primary-200,
+    "color-primary-300": g.$color-primary-300,
+    "color-primary-400": g.$color-primary-400,
+    "color-primary-500": g.$color-primary-500,
+    "color-primary-600": g.$color-primary-600,
+    "color-primary-700": g.$color-primary-700,
+    "color-primary-800": g.$color-primary-800,
+    "color-primary-900": g.$color-primary-900,
+
+    // Secondary
+    "color-secondary": g.$color-secondary,
+    "color-secondary-50": g.$color-secondary-50,
+    "color-secondary-100": g.$color-secondary-100,
+    "color-secondary-200": g.$color-secondary-200,
+    "color-secondary-300": g.$color-secondary-300,
+    "color-secondary-400": g.$color-secondary-400,
+    "color-secondary-500": g.$color-secondary-500,
+    "color-secondary-600": g.$color-secondary-600,
+    "color-secondary-700": g.$color-secondary-700,
+    "color-secondary-800": g.$color-secondary-800,
+    "color-secondary-900": g.$color-secondary-900,
+
+    // Button colors
+    "color-background-button-primary-initial": g.$color-background-button-primary-initial,
+    "color-background-button-primary-hovered": g.$color-background-button-primary-hovered,
+    "color-background-button-primary-disabled": g.$color-background-button-primary-disabled,
+    "color-background-button-secondary-initial": g.$color-background-button-secondary-initial,
+    "color-background-button-secondary-hovered": g.$color-background-button-secondary-hovered,
+    "color-background-button-secondary-disabled": g.$color-background-button-secondary-disabled,
+    "color-background-button-outline-initial": g.$color-background-button-outline-initial,
+    "color-background-button-outline-hovered": g.$color-background-button-outline-hovered,
+    "color-background-button-outline-disabled": g.$color-background-button-outline-disabled,
+    "color-background-button-ghost-initial": g.$color-background-button-ghost-initial,
+    "color-background-button-ghost-hovered": g.$color-background-button-ghost-hovered,
+    "color-background-button-ghost-disabled": g.$color-background-button-ghost-disabled,
+
+    // Text colors
+    "color-text-button-primary-initial": g.$color-text-button-primary-initial,
+    "color-text-button-secondary-initial": g.$color-text-button-secondary-initial,
+    "color-text-button-outline-initial": g.$color-text-button-outline-initial,
+    "color-text-button-ghost-initial": g.$color-text-button-ghost-initial,
+    "color-text-button-ghost-hovered": g.$color-text-button-ghost-hovered,
+
+    // Border colors
+    "color-border-button-primary-initial": g.$color-border-button-primary-initial,
+    "color-border-button-primary-hovered": g.$color-border-button-primary-hovered,
+    "color-border-button-primary-disabled": g.$color-border-button-primary-disabled,
+    "color-border-button-secondary-initial": g.$color-border-button-secondary-initial,
+    "color-border-button-secondary-hovered": g.$color-border-button-secondary-hovered,
+    "color-border-button-secondary-disabled": g.$color-border-button-secondary-disabled,
+    "color-border-button-outline-initial": g.$color-border-button-outline-initial,
+    "color-border-button-outline-hovered": g.$color-border-button-outline-hovered,
+    "color-border-button-outline-disabled": g.$color-border-button-outline-disabled,
+    "color-border-button-ghost-initial": g.$color-border-button-ghost-initial,
+    "color-border-button-ghost-hovered": g.$color-border-button-ghost-hovered,
+    "color-border-button-ghost-disabled": g.$color-border-button-ghost-disabled,
   )
 );
 

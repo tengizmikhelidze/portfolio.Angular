@@ -1,3 +1,7 @@
+/* =========================
+   PRIMARY – ORANGE SHADES
+   Tailwind-inspired green scale
+   ========================= */
 $color-primary: #FD6F00;
 $color-primary-50: #FFEFE6;
 $color-primary-100: #FFCFB0 ;
@@ -10,6 +14,9 @@ $color-primary-700: #B54600;
 $color-primary-800: #8C3600;
 $color-primary-900: #6B2A00;
 
+/* =========================
+   SECONDARY – NEUTRALS (unchanged, same as orange theme)
+   ========================= */
 $color-secondary: #000000;
 $color-secondary-50: #E6E6E6;
 $color-secondary-100: #B0B0B0 ;
@@ -22,11 +29,16 @@ $color-secondary-700: #000000;
 $color-secondary-800: #000000;
 $color-secondary-900: #000000;
 
+/* =========================
+   BUTTON / UTILITY COLORS
+   (calculated from primary/secondary above)
+   ========================= */
 $color-button-text-initial: #FFFFFF;
 $color-button-text-hovered: #00000066;
 $color-button-disabled: #cccccc;
 $color-transparent: transparent;
 
+/* Backgrounds */
 $color-background-button-primary-initial: #{$color-primary};
 $color-background-button-primary-hovered: #{$color-primary-600};
 $color-background-button-primary-disabled: #{$color-button-disabled};
@@ -40,12 +52,14 @@ $color-background-button-ghost-initial: #{$color-transparent};
 $color-background-button-ghost-hovered: #{$color-transparent};
 $color-background-button-ghost-disabled: #{$color-button-disabled};
 
+/* Text */
 $color-text-button-primary-initial: #{$color-button-text-initial};
 $color-text-button-secondary-initial: #{$color-button-text-hovered};
 $color-text-button-outline-initial: #{$color-primary};
 $color-text-button-ghost-initial: #{$color-primary};
 $color-text-button-ghost-hovered: #{$color-button-text-hovered};
 
+/* Borders */
 $color-border-button-primary-initial: #{$color-primary};
 $color-border-button-primary-hovered: #{$color-primary-600};
 $color-border-button-primary-disabled: #{$color-button-disabled};
