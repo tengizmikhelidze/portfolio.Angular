@@ -1,14 +1,13 @@
 import {Component, ContentChild, input, output, signal, TemplateRef} from '@angular/core';
 import {ButtonSize, ButtonVariant, SplitButtonItem} from '../shared';
-import {NgOptimizedImage, NgTemplateOutlet} from '@angular/common';
+import {NgTemplateOutlet} from '@angular/common';
 import {ButtonComponent} from '../button';
 
 @Component({
   selector: 'app-split-button',
   imports: [
     NgTemplateOutlet,
-    ButtonComponent,
-    NgOptimizedImage
+    ButtonComponent
   ],
   templateUrl: './split-button.component.html',
   styleUrl: './split-button.component.scss'

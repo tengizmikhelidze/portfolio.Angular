@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import {ButtonComponent} from '../../../../shared';
+import {ButtonComponent, ThemeEnum, ThemeService} from '../../../../shared';
 import {SplitButtonComponent} from '../../../../shared/components/button/split-button/split-button.component';
 import {SplitButtonItem} from '../../../../shared/components/button/shared';
 
@@ -16,24 +16,20 @@ import {SplitButtonItem} from '../../../../shared/components/button/shared';
 })
 export class LandingHeaderComponent {
 
-  changeThemeToGreen = () => this.changeTheme('green');
-  changeThemeToRed = () => this.changeTheme('green');
-
-  changeTheme(palette: string) {
-    console.log(`Changing theme to ${palette}`);
-  }
+  private readonly themeService = inject(ThemeService);
 
   themes: SplitButtonItem[] = [
     {
-      label: 'Green',
-      action: this.changeThemeToGreen
+      label: 'Orange',
+      action: () => this.changeTheme(ThemeEnum.orange)
     },
     {
-      label: 'Red',
-      action: this.changeThemeToRed
+      label: 'Green',
+      action: () => this.changeTheme(ThemeEnum.green)
     }
   ]
 
-
-
+  changeTheme(palette: ThemeEnum) {
+    this.themeService.setTheme(palette)
+  }
 }
