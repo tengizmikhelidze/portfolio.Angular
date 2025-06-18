@@ -47,9 +47,9 @@ input, button, textarea, select {
 }
 
 /* Base font styles */
-body {
+body, html {
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   background-color: #fff;
   color: #000;
 }

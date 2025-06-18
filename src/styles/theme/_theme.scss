@@ -27,7 +27,34 @@ $theme-map: (
     "color-secondary-600": o.$color-secondary-600,
     "color-secondary-700": o.$color-secondary-700,
     "color-secondary-800": o.$color-secondary-800,
-    "color-secondary-900": o.$color-secondary-900
+    "color-secondary-900": o.$color-secondary-900,
+
+    // Button colors
+    "color-background-button-primary-initial": o.$color-background-button-primary-initial,
+    "color-background-button-primary-hovered": o.$color-background-button-primary-hovered,
+    "color-background-button-primary-disabled": o.$color-background-button-primary-disabled,
+    "color-background-button-secondary-initial": o.$color-background-button-secondary-initial,
+    "color-background-button-secondary-hovered": o.$color-background-button-secondary-hovered,
+    "color-background-button-secondary-disabled": o.$color-background-button-secondary-disabled,
+    "color-background-button-outline-initial": o.$color-background-button-outline-initial,
+    "color-background-button-outline-hovered": o.$color-background-button-outline-hovered,
+    "color-background-button-outline-disabled": o.$color-background-button-outline-disabled,
+
+    // Text colors
+    "color-text-button-primary-initial": o.$color-text-button-primary-initial,
+    "color-text-button-secondary-initial": o.$color-text-button-secondary-initial,
+    "color-text-button-outline-initial": o.$color-text-button-outline-initial,
+
+    // Border colors
+    "color-border-button-primary-initial": o.$color-border-button-primary-initial,
+    "color-border-button-primary-hovered": o.$color-border-button-primary-hovered,
+    "color-border-button-primary-disabled": o.$color-border-button-primary-disabled,
+    "color-border-button-secondary-initial": o.$color-border-button-secondary-initial,
+    "color-border-button-secondary-hovered": o.$color-border-button-secondary-hovered,
+    "color-border-button-secondary-disabled": o.$color-border-button-secondary-disabled,
+    "color-border-button-outline-initial": o.$color-border-button-outline-initial,
+    "color-border-button-outline-hovered": o.$color-border-button-outline-hovered,
+    "color-border-button-outline-disabled": o.$color-border-button-outline-disabled
   )
 );
 
