@@ -73,11 +73,12 @@
   }
 
   &--ghost {
-    background: transparent;
-    color: var(--color-primary);
+    background: var(--color-background-button-ghost-initial);
+    color: var(--color-text-button-ghost-initial);
 
     &:hover {
-      background-color: rgba(0, 0, 0, 0.04);
+      background-color: var(--color-background-button-ghost-hovered);
+      color: var(--color-text-button-ghost-hovered);
     }
 
     &:disabled {

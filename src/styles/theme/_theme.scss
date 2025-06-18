@@ -39,11 +39,16 @@ $theme-map: (
     "color-background-button-outline-initial": o.$color-background-button-outline-initial,
     "color-background-button-outline-hovered": o.$color-background-button-outline-hovered,
     "color-background-button-outline-disabled": o.$color-background-button-outline-disabled,
+    "color-background-button-ghost-initial": o.$color-background-button-ghost-initial,
+    "color-background-button-ghost-hovered": o.$color-background-button-ghost-hovered,
+    "color-background-button-ghost-disabled": o.$color-background-button-ghost-disabled,
 
     // Text colors
     "color-text-button-primary-initial": o.$color-text-button-primary-initial,
     "color-text-button-secondary-initial": o.$color-text-button-secondary-initial,
     "color-text-button-outline-initial": o.$color-text-button-outline-initial,
+    "color-text-button-ghost-initial": o.$color-text-button-ghost-initial,
+    "color-text-button-ghost-hovered": o.$color-text-button-ghost-hovered,
 
     // Border colors
     "color-border-button-primary-initial": o.$color-border-button-primary-initial,
@@ -54,7 +59,10 @@ $theme-map: (
     "color-border-button-secondary-disabled": o.$color-border-button-secondary-disabled,
     "color-border-button-outline-initial": o.$color-border-button-outline-initial,
     "color-border-button-outline-hovered": o.$color-border-button-outline-hovered,
-    "color-border-button-outline-disabled": o.$color-border-button-outline-disabled
+    "color-border-button-outline-disabled": o.$color-border-button-outline-disabled,
+    "color-border-button-ghost-initial": o.$color-border-button-ghost-initial,
+    "color-border-button-ghost-hovered": o.$color-border-button-ghost-hovered,
+    "color-border-button-ghost-disabled": o.$color-border-button-ghost-disabled,
   )
 );
 
