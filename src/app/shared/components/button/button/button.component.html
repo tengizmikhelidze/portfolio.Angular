@@ -3,6 +3,7 @@
   [disabled]="disabled()"
   class="btn"
   [ngClass]="['btn--' + variant(), 'btn--' + size()]"
+  [ngStyle]="styles()"
 >
   <ng-content />
 </button>

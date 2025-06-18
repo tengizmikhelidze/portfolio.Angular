@@ -40,9 +40,11 @@
       </li>
 
       <li>
-        <app-button variant="outline">
-          <img ngSrc="assets/svg/theme.svg" alt="Theme" width="20" height="20"/>
-        </app-button>
+        <app-split-button [items]="themes">
+          <ng-template #labelTemplate>
+            <img ngSrc="assets/svg/theme.svg" alt="Theme" width="20" height="20"/>
+          </ng-template>
+        </app-split-button>
       </li>
 
       <li>
