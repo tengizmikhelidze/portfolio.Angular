@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
-import {LandingHeaderComponent} from './sections/header/landing-header.component';
+import {Component} from '@angular/core';
+import {HeaderComponent} from '../../shared';
 
 @Component({
   selector: 'app-landing',
   imports: [
-    LandingHeaderComponent
+    HeaderComponent
   ],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.scss'
