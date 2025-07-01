@@ -1,0 +1,15 @@
+$content-width-xl: 1420px;
+$content-width-lg: 1200px;
+$content-width-md: 960px;
+$content-width-sm: 720px;
+$content-width-xs: 540px;
+$content-width: #{$content-width-xl};
+
+:root {
+  --content-width-xl: #{$content-width-xl};
+  --content-width-lg: #{$content-width-lg};
+  --content-width-md: #{$content-width-md};
+  --content-width-sm: #{$content-width-sm};
+  --content-width-xs: #{$content-width-xs};
+  --content-width: #{$content-width};
+}

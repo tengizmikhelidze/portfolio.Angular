@@ -1,5 +1,4 @@
 main {
-  max-width: 1420px;
-  min-height: 100dvh;
+  width: var(--content-width);
   margin: 0 auto;
 }

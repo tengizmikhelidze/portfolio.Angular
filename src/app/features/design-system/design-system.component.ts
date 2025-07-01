@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {HeaderComponent} from '../../shared';
 
 @Component({
   selector: 'app-design-system',
-  imports: [],
+  imports: [
+    HeaderComponent
+  ],
   templateUrl: './design-system.component.html',
   styleUrl: './design-system.component.scss'
 })
