@@ -1,15 +1,15 @@
 import {Component, inject} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
-import {ButtonComponent, ThemeEnum, ThemeService} from '../../../../shared';
-import {SplitButtonComponent} from '../../../../shared/components/button/split-button/split-button.component';
-import {SplitButtonItem} from '../../../../shared/components/button/shared';
+import {ButtonComponent, SplitButtonComponent, SplitButtonItem, ThemeEnum, ThemeService} from '../../../../shared';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-landing-header',
   imports: [
     NgOptimizedImage,
     ButtonComponent,
-    SplitButtonComponent
+    SplitButtonComponent,
+    RouterLink
   ],
   templateUrl: './landing-header.component.html',
   styleUrl: './landing-header.component.scss'

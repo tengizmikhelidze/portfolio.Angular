@@ -22,7 +22,6 @@ export class ThemeService {
   }
 
   setTheme(theme: ThemeTypes){
-    console.log(theme)
     document.body.setAttribute(
       'data-theme',
       theme

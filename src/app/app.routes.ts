@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import {Routes} from '@angular/router';
 
 export const routes: Routes = [
   {
@@ -14,6 +14,13 @@ export const routes: Routes = [
         loadChildren: () =>
           import('./features/landing/landing.routes').then(
             (m) => m.landingRoutes
+          )
+      },
+      {
+        path: 'design-system',
+        loadChildren: () =>
+          import('./features/design-system/design-system.routes').then(
+            (m) => m.designSystemRoutes
           )
       }
     ]
